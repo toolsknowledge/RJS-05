@@ -1,0 +1,150 @@
+                                        Rest API Examples
+                                        =================
+
+    - axios is the 3rd party library, used to make the rest api calls.
+
+    - axios library we will download by using "yarn" tool.
+
+step 1.
+    create the react project
+
+    > npx create-react-app rest-ex --tempate typescript
+
+step 2.
+    switch to react application
+
+    > cd rest-ex
+
+step 3.
+    download the axios library
+
+    > yarn add axios --save
+
+step 4.
+    create the modal
+
+    //https://www.w3schools.com/angular/customers.php
+
+
+    ****************************************
+    rest-ex
+          src
+            modal
+              Customers.tsx
+    ****************************************
+
+    finally "Customers" and "Customer" modal are ready.
+
+step 5.
+    create the component
+
+    *****************************************
+    rest-ex
+         src
+           RestEx.tsx
+    *****************************************
+
+
+                                        **** MERN STACK DEVELOPMENT ****
+        M - MongoDB
+
+        E - ExpressJS
+
+        R - ReactJS
+
+        N - NodeJS
+
+        we are using "ReactJS" as Front End.
+
+        we will use "NodeJS" as Backend.
+
+        we will use "MongoDB" as DataBase.
+
+        we will use "ExpressJS" to develop Rest Services.
+
+        GET
+
+        POST
+
+        PUT
+
+        DELETE
+
+        ---
+        ---
+        ---
+
+MongoDB
+-------
+    - MongoDB is NoSQL DataBase (Won't Supports Either SQL or PLSQL).
+
+    - MongoDB Supports the "JSON".
+
+    - MongoDB DataBase is "Light Weight" DataBase.
+
+Terminology
+===========
+                        SQL                                 NoSQL
+
+
+    - Support Both SQL & PLSQL                      Wont Supports SQL or PLSQL.
+
+    - MySQL, SQLServer,Oracle,...                   MongoDB
+
+    - Won't Supports JSON                           Supports JSON.
+
+    - Tables                                        Collection
+
+    - DataBase                                      DataBase
+
+    - Rows                                          Records
+
+    - Primary Key                                   _id
+
+
+    - MongoDB DataBase provides cloud support.
+
+                URL : https://account.mongodb.com/account/login
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
