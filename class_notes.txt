@@ -116,6 +116,184 @@ Terminology
 
 
 
+implementation of MERN Stack application
+========================================
+1) deploy images to s3 bucket
+
+    P1_Image : https://rjs05.s3.ap-south-1.amazonaws.com/p1.jpg
+
+    P2_Image : https://rjs05.s3.ap-south-1.amazonaws.com/p2.jpg
+
+    P3_Image : https://rjs05.s3.ap-south-1.amazonaws.com/p3.jpg
+
+    P4_Image : https://rjs05.s3.ap-south-1.amazonaws.com/p4.jpg
+
+    P5_Image : https://rjs05.s3.ap-south-1.amazonaws.com/p5.jpg
+
+    P6_Image : https://rjs05.s3.ap-south-1.amazonaws.com/p6.jpg
+
+
+2) create the database in mongodb.
+
+
+        DataBase Details:
+        =================
+
+        mongodb+srv://admin:admin@rjs-05.1glav.mongodb.net/MERN?retryWrites=true&w=majority
+
+
+        uname : admin
+
+        password : admin
+
+        database : MERN
+
+        collection : products
+
+
+3) create the Node Server
+
+    - "Node Server" is used to create the "Rest" API'S with the help of "ExpressJS".
+
+    - we will develop Node application with the help of "JavaScript".
+
+    - Node Supports the libraries.
+
+
+=> mongodb
+
+    - used to connect to "mongodb" database.
+
+
+=> express
+
+    - used to develop the "Rest" Services.
+
+    Ex.
+        GET
+        POST
+        PUT
+        DELETE
+        ---
+        ---
+        ---
+
+=> body-parser
+
+    - body-parser used to receive the data from Frontend.
+
+
+=> cors
+
+    - used to enable the "cors" policy.
+
+
+    we will download above libraries with the help of "yarn" tool
+
+    above libraries downloads to "node_modules" folder in current path.
+
+step 1.
+    create the folder
+
+    Ex.
+        server
+
+step 2.
+    switch to server folder
+
+    > cd server
+
+
+
+step 3.
+    download the libraries.
+
+    @mongodb
+
+    @express
+
+    @body-parser
+
+    @cors
+
+    > yarn mongodb express body-parser cors --save
+
+                or
+
+    > npm install mongodb express body-parser cors --save
+
+Note : all the libraries downloads to "node_modules" folder in current path
+
+step 4.
+    create the server file
+
+    server.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
